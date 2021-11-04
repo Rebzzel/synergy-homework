@@ -1,0 +1,17 @@
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+:root {
+    --bs-body-bg: var(--bs-gray-100);
+}
+.list-group-item.title {
+    background-color: var(--bs-gray-200);
+}
+
+.debug {
+    margin: 8px 0px;
+    padding: 8px;
+    border: 1px solid red;
+}
